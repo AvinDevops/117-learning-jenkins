@@ -25,6 +25,7 @@ pipeline {
         stage('Build') {
             steps {
                 echo 'This is Build'
+                sh 'env'
             }
         }
         stage('Test') {
