@@ -3,7 +3,7 @@ pipeline {
         label 'AGENT-1'
     }
     options {
-        timeout(time:30, unit:'HOURS')
+        timeout(time:30, unit:'MINUTES')
         disableConcurrentBuilds()
     }
     parameters {
