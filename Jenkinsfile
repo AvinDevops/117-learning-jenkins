@@ -49,4 +49,12 @@ pipeline {
             }
         }
     }
+    post {
+        always {
+            echo "this will run always"
+        }
+        success {
+            echo "this will run when pipeline is success"
+        }
+    }
 }
